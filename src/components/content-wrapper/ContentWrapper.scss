@@ -1,0 +1,91 @@
+@import "../../scss/colors.scss";
+.content-padding{
+	padding: 15px;
+}
+.content-wrapper{
+	background-color: $cloud;
+	
+	position: relative;
+	
+	h1{
+		font-family: Geometria;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 33px;
+		
+		
+
+	}
+	
+	.content-wrapper__blue{
+		background-color: $blue;
+		h1,p,h2{
+			color: $white;
+			
+		}
+		z-index: 99;
+		position: relative;
+	
+		
+	}
+	
+}
+@media (max-width:600px) {
+	.content-wrapper{
+	h1{
+		margin-top: 47px;
+		margin-bottom: 20px;
+	}
+
+	
+	p{
+		
+		padding-right: 30px;
+		line-height: 25px;
+	}
+	p,li,h2 {
+		padding-left: 30px;
+	}
+	.content-wrapper__p12{
+		padding-left: 12px;	
+			margin-top: 42px;
+	}
+	h2{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.content-wrapper__p30{
+		h1{
+			padding-left: 30px;	
+			margin-top: 42px;
+		}
+	}
+
+	.left__h1{
+		padding-left: 0px;
+	}
+
+
+}
+}
+@media (min-width:600px) {
+	.content-padding{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+
+	
+}
+@media (min-width:1300px) {
+	.m700px{
+		width: 700px;
+		height: 445px;
+		margin-left: 40%;
+	}
+	.m500px{
+		width: 585px;
+		margin-left: 200px;
+	}
+}

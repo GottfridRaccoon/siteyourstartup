@@ -1,0 +1,91 @@
+@import '../../scss/colors.scss';
+.company-licensie__h1{
+	padding-top: 42px;
+}
+.content-licensie__p{
+	padding-bottom:36px;
+}
+.company-licensie__img{
+	margin-right: 30px;
+	
+}
+
+
+
+.company-licensie__bg{
+	background-image: url("../../images/clbg.png") ;
+	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+@media (max-width:600px) {
+	.company-licensie__img{
+		
+		padding-left: 30px;
+	}
+	.company-licensie__image{
+		padding-bottom: 55px;
+	}
+	.company-licensie__bg{
+		background-position: left 160px, center ;
+	}
+	
+}
+@media (min-width:600px) {
+	.company-licensie__h1,.content-licensie__p{
+		margin-left: 60px;
+	}
+	.company-licensie__h1{
+	padding-top: 53px;
+	
+	}
+	.content-licensie__p{
+		 width: 441px;
+	}
+	.left__h1{
+		margin-bottom: 27px;
+	}
+
+	.company-licensie__image{
+		margin-left: 60px;
+		margin-top: 15px;
+		padding-bottom: 48px;
+	}
+}
+@media (min-width:1000px) {
+	.company-licensie__h1,.content-licensie__p{
+		margin-left: 73px;
+		margin-right: 71px;
+	}
+	.content-licensie__p{
+		font-family: Geometria;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+	}
+	.company-licensie__h1{
+		padding-top: 73px;
+		padding-bottom: 14px;
+	}
+	body{
+		background-color: $cloud;
+	}
+	.company-licensie__image{
+
+		margin-left: 73px;
+		padding-bottom: 48px;
+	
+	}
+	
+
+
+}
+@media (min-width:1300px) {
+	.footer-relative{
+		width: 900px;
+	}
+	.footer-hidden{
+		overflow: visible;
+	}
+}

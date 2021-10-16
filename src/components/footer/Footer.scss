@@ -1,0 +1,66 @@
+@import '../../scss/colors.scss';
+.footer-wrapper{
+	background-color: $dblue;
+
+	width: 100%;
+	bottom: -940px;
+		
+	
+
+	
+	padding-left: 10px;
+	z-index: 1;
+	.footer__p{
+		color: $white;
+		margin-top: 300px;
+		padding-top: 400px;
+		font-size: 14px;
+line-height: 18px;
+		
+	}
+	.footer__logo{
+		padding-top: 38px;
+		margin-right: 10px;
+		display: flex;
+	}
+	.footer__h2{
+		
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+line-height: 18px;
+margin-left: 30px;
+margin-bottom: 40px;
+text-decoration-line: underline;
+color: $white;
+margin-left: 11px;
+	}
+}
+
+@media (min-width:600px) {
+	.footer-wrap{
+		bottom: -240px;
+	}
+}
+@media (min-width:1300px) {
+	.footer-wrap{
+		position: relative;
+		top: 40px;
+		
+	}
+	.footer-wrapper{
+		display: inline-flex;
+		width: 100%;
+	}
+	.footer__logo{
+		margin-top: 659px;
+		width: 60%;
+		justify-content: flex-end;
+	}
+	.footer__p{
+		margin-left: 150px;
+		min-width: 200px;
+	}
+}

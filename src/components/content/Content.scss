@@ -1,0 +1,116 @@
+
+.geo-information-root{
+	margin-top: 120px;
+}
+.content-wrapper__contacts{
+	position: relative;
+}
+.content-footer{
+	background-image: url("../../images/footerlic.png") ;
+	background-position: top center;
+	height: 390px;
+	background-repeat: no-repeat;
+	position:relative;
+
+
+	
+	z-index: 1;
+}
+.footer-relative{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	width: 100%;
+	
+	
+}
+.footer-hidden{
+	overflow: hidden;
+}
+@media (min-width:400px) and (max-width:600px){
+	.footer-relative{
+		top: 400px;
+		
+	}
+	
+
+}
+
+.content-margin{
+	margin-top: 2000px;
+}
+
+@media (min-width:600px) and (max-width:1300px) {
+	.content-footer{
+		
+	
+		transform: scale(2);
+		
+		
+	}
+	.footer-relative{
+		top: 300px;
+	}
+
+
+	
+}
+@media (min-width:1000px) {
+	.footer-relative{
+		top: 500px;
+	}
+}
+@media (min-width:1300px) {
+	.footer-relative{
+		top: 200px;
+		left: 400px;
+	}
+}
+@media (min-width:600px) {
+	.text-center{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.left__h1{
+		margin-top: 70px;
+		margin-bottom: 7px;
+		
+	}
+	
+}
+@media (min-width:600px) and (max-width:1300px) {
+				.content-wrapper__contacts{
+				padding-top: 200px;
+			}
+		}
+		@media (min-width:300px) and (max-width:600px) {
+			.content-wrapper__contacts{
+			padding-top: 100px;
+		}
+	}
+// @for $var from 3 through 8{
+// 	@if $var<4{
+// 		@media (min-width:#{$var*100}px) and (max-width:#{($var+1)*100}px) {
+// 			.content-wrapper__contacts{
+// 				padding-top: #{($var/5)*100}px;
+// 			}
+// 		}
+// 	}@if$var<6{
+// 		@media (min-width:#{$var*100}px) and (max-width:#{($var+1)*100}px) {
+// 			.content-wrapper__contacts{
+// 				padding-top: #{($var/3)*100}px;
+// 			}
+// 		}
+// 	}@else{
+// 		@media (min-width:#{$var*100}px) and (max-width:#{($var+1)*100}px) {
+// 			.content-wrapper__contacts{
+// 				padding-top: #{($var/2.5)*100}px;
+// 			}
+// 	}
+// }
+	
+	
+// }
+.relative-block{
+	position: relative;
+}

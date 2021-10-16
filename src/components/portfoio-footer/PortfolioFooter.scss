@@ -1,0 +1,29 @@
+.portfolio-switches__right, .portfolio-switces{
+	display: flex;
+}
+.portfolio-switches__right{
+
+	width: 100%;
+	justify-content: flex-end;
+}
+.portfolio-content__img{
+	width: 100%;
+}
+#mystroke{
+	margin-top: 32px;
+	margin-bottom: 50px;
+	width: 26px;
+	height: 58px;
+	
+	&:hover{
+		stroke:rgba(65, 105, 193, 1);
+		stroke-opacity:1;
+	}
+}
+@media (min-width:1300px) {
+	.portfolio-switces{
+		position: relative;
+		bottom: 300px;
+		left:20px;
+	}
+}

@@ -1,0 +1,174 @@
+@import "../../scss/colors.scss";
+.navigation-wrapper{
+		width: 100%;
+		display: flex;
+		background-color:  $white;
+		
+	
+}
+.menu__content{
+	display: flex;
+	text-transform:uppercase;
+	
+	color: $dblue;
+	margin-left: 60px;
+	.menu-item{
+		padding-top: 37px;
+		padding-right: 17px;
+		padding-left: 17px;
+		font-size: 12px;
+		
+	}
+}
+.menu-item:hover{
+	background-color: $blue;
+	color: $white;
+}
+.menu-wrapper{
+	
+	display: flex;
+	width: 100%;
+	
+	
+}
+.navigation-logo{
+	width: 218px;
+	height: 45px;
+	
+}
+
+.menu__h2{
+	font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+margin-top: 30px;
+margin-bottom: 5px;
+display: flex;
+
+}
+.menu__phone{
+	margin-right: 15px;
+	margin-top: 30px;
+	
+}
+.phone-wrapper{
+	display: flex;
+	justify-content: flex-end;
+	width: 40%;
+}
+.menu-burger{
+	display: none;
+	width: 32px;
+	height: 32px;
+	font-size: 32px;
+	margin-top: 30px;
+ }
+ @media (min-width:1280px) {
+	 .navigation-logo{
+		 margin-left: 200px;
+	 }
+ }
+ @media (min-width:400px) and (max-width: 1000px) {
+	
+	.menu__h2{
+		margin-right: 65px;
+
+	}
+
+	.navigation-logo{
+		margin-left: 40px;
+	}
+	.menu-burger{
+		margin-right: 38px;
+	}
+ }
+ @media (max-width:1000px) {
+	.menu-burger {
+		display: block; /* This is how it looks on desktop */
+		
+	  }
+	  .menu-wrapper{
+		justify-content: flex-end;
+		
+
+	}
+	.menu__content{
+		display: none;
+	}
+	
+
+	
+	 
+ }
+
+ @media (max-width:500px) {
+	.menu-wrapper{
+	   width: 20%;
+	 
+	}
+
+	
+}
+@media (max-width:400px) {
+	.navigation-wrapper{
+	   width: 80%;
+	   margin-top: 25px;
+	   margin-bottom: 25px;
+	}
+	.navigation-logo{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	
+}
+@media (min-width:600px) {
+
+	.navigation-logo{
+		margin-top: 20px;
+		margin-bottom:20px;	
+	}
+	
+}
+
+
+@media  (max-width: 600px) {
+	.menu__phone{
+		display: none;
+	}
+	.navigation-wrapper{
+	
+		height: 70px;
+		
+		
+		
+	}
+	.menu__h2{
+		visibility: hidden;
+	}
+	
+	.navigation-wrapper{
+		padding-top: 2px;
+		padding-bottom:2px;
+		
+	}
+
+	
+	.navigation-burger{
+		width: 32px;
+		height: 32px;
+		
+	}
+	.navigation-logo{
+		padding-left: 18px;
+		padding-top: 15px;
+		
+	}
+	
+	.menu-burger{
+		margin-right: 15px;
+		margin-top: 20px;
+	}
+	
+}

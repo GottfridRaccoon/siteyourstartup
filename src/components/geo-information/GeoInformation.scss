@@ -1,0 +1,87 @@
+@import '../../scss/colors.scss';
+.geo-information-wrapper{
+	padding-top: 50px;
+	padding-left: 16px;
+	padding-right: 11px;
+	h1{
+
+
+padding-bottom: 18px;
+	}
+	h2{
+		font-size: 18px;
+		color: $dblue;
+		
+	}
+	h2,p{
+		padding-bottom: 11px;
+	}
+	.rus-img{
+		width: 100%;
+		margin-bottom: 46px;
+	}
+	p{
+		color: rgba(0, 26, 51, 0.7);
+	}
+	
+}
+@media (max-width:600px) {
+	h2,p{
+		margin-bottom: 11px;
+	}
+	
+}
+@media (min-width:600px) {
+	.geo-information-wrapper{
+		
+		padding-right: 40px;
+		padding-top: 74px;
+		h2,p{
+			padding-left: 42px;
+			width: 483px;
+			
+		}
+		h1{
+			padding-left: 42px;
+		}
+	}
+
+
+	
+	
+}
+@media (min-width:1000px) {
+	.geo-information-wrapper{
+		display: flex;
+		margin-top: -20rem;
+		margin-left: 150px;
+		h2{
+			font-family: Geometria;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 22px;
+			;
+			line-height: 33px;
+		}
+		h2,p{
+			width: 484px
+		}
+		p{
+			font-family: Geometria;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+		}
+	}
+	.main-title{
+		
+
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 44px;
+	}
+
+
+	
+}

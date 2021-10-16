@@ -1,0 +1,94 @@
+@import 'colors.scss';
+	@font-face {
+		font-family: "Geometria-ExtraLight";
+		src: url("../font/Geometria-ExtraLight.ttf") ;
+	}
+	h1{
+		font-family: "Geometria";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 33px;
+ 		color:$dblue ;
+		 
+	}
+	
+	
+	h2{
+		font-family: "Geometria-ExtraLight";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height:27px;
+		color:$dblue ;
+	}
+	@mixin p {
+		font-family: "Geometria-ExtraLight";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+	}
+	.p__white{
+		@include p ;
+		color: $transp;
+	}
+	.main-title{
+		
+	font-size: 26px;
+	
+	}
+	.main-title, .second-title{
+		font-style: normal;
+	font-weight: 500;
+	line-height: 33px;
+	}
+	.orange-button{
+		background-color: $orange;
+		color: $white;
+		border:none;
+		width: 100%;
+		border-radius: 24px;
+	}
+	.second-title{
+		font-size: 26px;
+	}
+	.text-center{
+		text-align: center;
+	}
+	.input{
+		box-sizing: border-box;
+			border-radius: 5px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 18px;
+			
+			width: 100%;
+			height: 45px;
+	}
+	.field-name{
+		font-family: "Geometria-ExtraLight";
+		color:$dblue;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 18px;
+		padding-top: 16px;
+	}
+	.submit{
+		
+		height: 50px;
+		
+		padding: 16px;
+		margin-top: 16px;
+		
+	}
+	.absolute-wrap{
+
+		position: absolute;
+		width: 100%;
+		
+	}
+	.hideover {
+		overflow: hidden;
+		
+	}
